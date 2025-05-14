@@ -1,34 +1,36 @@
-/* 页面基本样式 */
-html, body {
-  height: 100%;
+/* 设置页面全局样式 */
+body, html {
   margin: 0;
   padding: 0;
-  background-color: white;  /* 设置背景色为白色 */
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* 防止出现滚动条 */
+  background-color: #f3f4f6; /* 页面背景色 */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
+/* 设置时钟卡片的样式 */
 .clock-card {
   background: white;
   padding: 30px 40px;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 100%;    /* 自适应宽度 */
-  max-width: 320px; /* 设置最大宽度 */
-  height: 100%;    /* 自适应高度 */
+  width: 100%;       /* 宽度自适应 */
+  max-width: 320px;  /* 设置最大宽度 */
+  height: 100%;      /* 高度自适应 */
   max-height: 220px; /* 设置最大高度 */
-  overflow: hidden; /* 防止出现滚动条 */
+  overflow: hidden;  /* 防止出现滚动条 */
 }
 
+/* 设置时钟标题的样式 */
 h2 {
   margin-top: 0;
   font-size: 20px;
   color: #333;
 }
 
+/* 设置时间显示的样式 */
 .time {
   font-size: 32px;
   font-weight: bold;
@@ -36,6 +38,7 @@ h2 {
   color: #111827;
 }
 
+/* 设置日期显示的样式 */
 .date,
 .weekday {
   font-size: 14px;
