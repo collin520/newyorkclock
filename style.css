@@ -5,29 +5,29 @@ body, html {
   height: 100%;
   width: 100%;
   overflow: hidden; /* 防止出现滚动条 */
-  background-color: #f3f4f6; /* 页面背景色 */
+  background-color: transparent; /* 背景透明 */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* 设置时钟卡片的样式 */
 .clock-card {
-  background: white;
+  background: transparent; /* 容器背景透明 */
   padding: 30px 40px;
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: none; /* 去掉阴影，让透明更自然 */
   text-align: center;
-  width: 100%;       /* 宽度自适应 */
-  max-width: 320px;  /* 设置最大宽度 */
-  height: 100%;      /* 高度自适应 */
-  max-height: 220px; /* 设置最大高度 */
-  overflow: hidden;  /* 防止出现滚动条 */
+  width: 100%;        /* 宽度自适应 */
+  max-width: 320px;   /* 设置最大宽度 */
+  height: 100%;       /* 高度自适应 */
+  max-height: 220px;  /* 设置最大高度 */
+  overflow: hidden;   /* 防止出现滚动条 */
 }
 
 /* 设置时钟标题的样式 */
 h2 {
   margin-top: 0;
   font-size: 20px;
-  color: #333;
+  color: #111827;
 }
 
 /* 设置时间显示的样式 */
