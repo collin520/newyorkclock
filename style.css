@@ -2,15 +2,15 @@
 body, html {
   margin: 0;
   padding: 0;
-  height: 100%;
+  min-height: 100vh;  /* 让页面至少占满整个视口 */
   width: 100%;
-  overflow: hidden; /* 防止出现滚动条 */
+  overflow: hidden;   /* 防止出现滚动条 */
   background-color: transparent; /* 背景透明 */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center;  /* 水平居中 */
+  align-items: center;      /* 垂直居中 */
 }
 
 /* 设置时钟卡片的样式 */
