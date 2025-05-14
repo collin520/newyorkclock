@@ -2,7 +2,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  min-height: 100vh;  /* 让页面至少占满整个视口 */
+  min-height: 100vh;  /* 确保页面填满屏幕高度 */
   width: 100%;
   overflow: hidden;   /* 防止出现滚动条 */
   background-color: transparent; /* 背景透明 */
@@ -11,6 +11,7 @@ body, html {
   display: flex;
   justify-content: center;  /* 水平居中 */
   align-items: center;      /* 垂直居中 */
+  height: 100%;  /* 保证内容撑满屏幕 */
 }
 
 /* 设置时钟卡片的样式 */
